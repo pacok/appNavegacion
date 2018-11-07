@@ -1,0 +1,23 @@
+
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Llamadas</ion-title> 
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-list>
+
+    <ion-item *ngFor="let personaje of personajes"  (click)="irPagina2( personaje )">
+      <ion-avatar item-left><img [src]="personaje.img "></ion-avatar>      
+      <h2>{{ personaje.nombre }}</h2>
+      <p>{{ personaje.titulo }}</p>
+    </ion-item>
+
+  </ion-list>
+
+
+</ion-content>

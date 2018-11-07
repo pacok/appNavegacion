@@ -1,0 +1,25 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>{{ personaje.nombre }}</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding >
+    <img [src]="personaje.img" class="imagen" > 
+  <h1 text-center>{{ personaje.nombre }}</h1>
+  <h3 text-center>{{ personaje.titulo }}</h3>
+
+
+  
+  <button ion-button
+          block
+          color="primary"
+          navPop>
+    Regresar 
+  </button>
+
+
+</ion-content>
