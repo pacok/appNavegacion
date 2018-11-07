@@ -35,11 +35,11 @@ Con ello se nos lanzara nuestra aplicacion en nuestro navegador predeterminado.
 En el navegador web se nos lanzaran tanto un emulador para android como otro para iOs.
 
 
-## Built With
+## Tecnologias usadas
 
 * [Ionic](https://ionicframework.com/) - Framework 
 * [npm](https://www.npmjs.com/) - Manejador de dependencias
 
-## Authors
+## Autor
 
 * **Francisco Camas** - *Primera aplicacion con Ionic* - [AppNavegacion](https://github.com/pacok/appNavegacion)
